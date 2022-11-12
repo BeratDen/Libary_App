@@ -22,7 +22,7 @@ print("""
 
 libary = Libary()
 
-while True:
+while False:  # TODO: open loop when gui ready
     islem = input("Yapıcağınız İşlem: ")
     if islem == "q":
         print("Program sonlandırılıyor....")
